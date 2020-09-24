@@ -1,0 +1,41 @@
+.active {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.5s ease-in;
+}
+.slider-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  z-index: 20;
+}
+.slider1 {
+  position: fixed;
+  width: 25%;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+.slider2 {
+  transform: translateY(0%);
+  position: fixed;
+  width: 25%;
+  top: 0;
+  left: 25%;
+  z-index: 20;
+}
+.slider3 {
+  transform: translateY(0%);
+  position: fixed;
+  width: 25%;
+  top: 0;
+  left: 50%;
+  z-index: 20;
+}
+.slider4 {
+  transform: translateY(0%);
+  position: fixed;
+  width: 25%;
+  top: 0;
+  left: 75%;
+  z-index: 20;
+}

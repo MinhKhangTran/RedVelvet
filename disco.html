@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Red Velvet | Profile</title>
+    <!-- Font awesome -->
+    <script
+      src="https://kit.fontawesome.com/48d84926e2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./public/build/tailwind.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="bg-red-100">
+    <main>
+      <nav>
+        <div
+          class="nav-header mt-4 text-red-600 h-8 flex w-11/12 max-w-6xl justify-between mx-auto items-center"
+        >
+          <i
+            class="fas fa-bars hover:shadow-2xl hover:text-red-700 transition-all durantion-300 ease-in-out text-xl md:text-4xl z-10 cursor-pointer"
+          ></i>
+          <h1 class="text-xl md:text-4xl font-bold font-mono z-10">
+            Red Velvet
+          </h1>
+        </div>
+      </nav>
+      <aside
+        class="sidebar fixed top-0 left-0 w-full h-screen z-20 bg-purple-300 opacity-0 scale-0 transition-all durantion-1000 ease-in-out"
+      >
+        <div
+          class="nav-header mt-4 text-red-600 h-8 flex w-11/12 max-w-6xl justify-between mx-auto items-center"
+        >
+          <button class="toggler">
+            <i
+              class="fas fa-bars hover:shadow-2xl hover:text-red-700 transition-all durantion-300 ease-in-out text-xl md:text-4xl z-10 cursor-pointer"
+            ></i>
+          </button>
+
+          <h1 class="text-xl md:text-4xl font-bold font-mono z-10">
+            Red Velvet
+          </h1>
+        </div>
+        <div
+          class="sidebar__items h-screen flex flex-col items-center justify-center"
+        >
+          <h1>
+            <a
+              class="nav-link text-purple-600 text-2xl md:text-4xl inline-block py-12 md:py-8"
+              href="./index.html"
+              >About</a
+            >
+          </h1>
+          <h1>
+            <a
+              class="nav-link text-purple-600 text-2xl md:text-4xl inline-block py-12 md:py-8"
+              href="./profile.html"
+              >Profile</a
+            >
+          </h1>
+          <h1>
+            <a
+              class="nav-link text-purple-600 text-2xl md:text-4xl inline-block py-12 md:py-8"
+              href="./disco.html"
+              >Discography</a
+            >
+          </h1>
+          <a
+            class="text-purple-600 mt-8 text-2xl md:text-4xl"
+            href="https://www.instagram.com/redvelvet.smtown/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </aside>
+    </main>
+    <div class="slider-container">
+      <div class="slider1 bg-red-200 h-screen"></div>
+      <div class="slider2 bg-red-300 h-screen"></div>
+      <div class="slider3 bg-red-400 h-screen"></div>
+      <div class="slider4 bg-red-500 h-screen"></div>
+    </div>
+    <section
+      class="disco my-8 grid grid-cols-1 justify-items-center md:grid-cols-4 lg:grid-cols-6 gap-x-4 gap-y-4 md:mx-8"
+    >
+      <div class="links">
+        <img
+          src="https://kprofiles.com/wp-content/uploads/2019/12/85d61cf2-e71d-466b-aeec-0626b3310e38_512.jpg"
+          alt=""
+          class="rounded"
+        />
+      </div>
+      <div class="rechts flex md:flex-col items-center justify-center">
+        <h1 class="text-red-600 pr-8 md:pr-0 font-bold text-lg md:text-2xl">
+          name
+        </h1>
+        <h2 class="text-red-600 pl-8 md:pl-0 font-bold text-lg md:text-2xl">
+          Datum
+        </h2>
+      </div>
+    </section>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./discograp.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
